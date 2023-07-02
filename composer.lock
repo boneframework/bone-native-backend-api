@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0633bd4355de5a735b3b2e27b75dcc31",
+    "content-hash": "de7c1b4a801aa7e3365709d965495d84",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -899,16 +899,16 @@
         },
         {
             "name": "delboy1978uk/bone-settings",
-            "version": "v1.2.0",
+            "version": "v1.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-settings.git",
-                "reference": "06c6b82e1db927987795bf5f794539c4620974f3"
+                "reference": "81ab98a9700f72af933f514129bcc6a38b3cdb7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-settings/zipball/06c6b82e1db927987795bf5f794539c4620974f3",
-                "reference": "06c6b82e1db927987795bf5f794539c4620974f3",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-settings/zipball/81ab98a9700f72af933f514129bcc6a38b3cdb7f",
+                "reference": "81ab98a9700f72af933f514129bcc6a38b3cdb7f",
                 "shasum": ""
             },
             "require": {
@@ -938,9 +938,9 @@
             "description": "A generic settings entity",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-settings/issues",
-                "source": "https://github.com/delboy1978uk/bone-settings/tree/v1.2.0"
+                "source": "https://github.com/delboy1978uk/bone-settings/tree/v1.2.1"
             },
-            "time": "2023-07-01T15:36:07+00:00"
+            "time": "2023-07-01T16:32:20+00:00"
         },
         {
             "name": "delboy1978uk/bone-user",
@@ -10417,7 +10417,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4",
+        "php": "^8.1",
         "ext-fileinfo": "*",
         "ext-intl": "*",
         "ext-json": "*",
