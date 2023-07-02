@@ -23,8 +23,9 @@ bin/terminal php
 composer install
 bone migrant:diff
 bone migrant:migrate
-bone migrant:genrate-proxies
+bone migrant:generate-proxies
 bone migrant:fixtures
+bone assets:deploy
 exit
 ```
 Then browse to `https://awesome.scot`, and you will see the site running.
