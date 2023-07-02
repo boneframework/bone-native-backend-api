@@ -10,6 +10,7 @@ use Bone\Paseto\PasetoPackage;
 use Bone\Settings\SettingsPackage;
 use Bone\User\BoneUserPackage;
 use Bone\VendorDev\VendorDevPackage;
+use Del\Generator\GeneratorPackage;
 use Del\Person\PersonPackage;
 use Del\UserPackage;
 
@@ -26,6 +27,7 @@ return [
         BoneUserApiPackage::class,
         SettingsPackage::class,
         VendorDevPackage::class,
+        GeneratorPackage::class,
         AppPackage::class,
     ],
 ];

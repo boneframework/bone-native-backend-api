@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1af27497a420020607f134e7798dfda9",
+    "content-hash": "38ca14d8c474423495947010c4e6f462",
     "packages": [
         {
             "name": "defuse/php-encryption",
@@ -799,6 +799,51 @@
                 "source": "https://github.com/delboy1978uk/bone-paseto/tree/v1.0.5"
             },
             "time": "2022-03-07T20:26:42+00:00"
+        },
+        {
+            "name": "delboy1978uk/bone-push-notifications",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/delboy1978uk/bone-push-notifications.git",
+                "reference": "1545901e53a274b25480c5f5d0c304315ebfcd20"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-push-notifications/zipball/1545901e53a274b25480c5f5d0c304315ebfcd20",
+                "reference": "1545901e53a274b25480c5f5d0c304315ebfcd20",
+                "shasum": ""
+            },
+            "require": {
+                "delboy1978uk/bone-oauth2": "^1.5",
+                "ext-json": "*",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "package",
+            "autoload": {
+                "psr-4": {
+                    "Bone\\Notification\\PushToken\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Derek Stephen McLean",
+                    "email": "delboy1978uk@gmail.com"
+                }
+            ],
+            "description": "Push Notifications using Expo for Bone Native apps",
+            "support": {
+                "issues": "https://github.com/delboy1978uk/bone-push-notifications/issues",
+                "source": "https://github.com/delboy1978uk/bone-push-notifications/tree/v1.0.0"
+            },
+            "time": "2023-07-02T17:17:51+00:00"
         },
         {
             "name": "delboy1978uk/bone-router",
@@ -7576,6 +7621,60 @@
             "time": "2022-11-21T19:21:24+00:00"
         },
         {
+            "name": "delboy1978uk/generator",
+            "version": "v1.3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/delboy1978uk/generator.git",
+                "reference": "0095b31939549931cfee8dfb1e9885bae5239d9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/delboy1978uk/generator/zipball/0095b31939549931cfee8dfb1e9885bae5239d9d",
+                "reference": "0095b31939549931cfee8dfb1e9885bae5239d9d",
+                "shasum": ""
+            },
+            "require": {
+                "delboy1978uk/barnacle": "^2.3",
+                "delboy1978uk/bone-console": "^1.4",
+                "delboy1978uk/bone-doctrine": "^1.8",
+                "delboy1978uk/form": "^2.1",
+                "ext-json": "*",
+                "laminas/laminas-diactoros": "^2.1",
+                "laminas/laminas-i18n": "^2.10",
+                "nette/php-generator": "^3.2",
+                "php": "^8.1"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-latest"
+            },
+            "bin": [
+                "bin/generator"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Del\\Generator\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Derek Stephen McLean",
+                    "email": "delboy1978uk@gmail.com"
+                }
+            ],
+            "description": "Generate blank, controller, and db entity package templates for Bone Framework",
+            "support": {
+                "issues": "https://github.com/delboy1978uk/generator/issues",
+                "source": "https://github.com/delboy1978uk/generator/tree/v1.3.8"
+            },
+            "time": "2023-07-02T15:39:48+00:00"
+        },
+        {
             "name": "guzzlehttp/psr7",
             "version": "2.5.0",
             "source": {
@@ -7749,6 +7848,160 @@
                 }
             ],
             "time": "2023-03-08T13:26:56+00:00"
+        },
+        {
+            "name": "nette/php-generator",
+            "version": "v3.6.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/php-generator.git",
+                "reference": "d31782f7bd2ae84ad06f863391ec3fb77ca4d0a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/d31782f7bd2ae84ad06f863391ec3fb77ca4d0a6",
+                "reference": "d31782f7bd2ae84ad06f863391ec3fb77ca4d0a6",
+                "shasum": ""
+            },
+            "require": {
+                "nette/utils": "^3.1.2",
+                "php": ">=7.2 <8.3"
+            },
+            "require-dev": {
+                "nette/tester": "^2.4",
+                "nikic/php-parser": "^4.13",
+                "phpstan/phpstan": "^0.12",
+                "tracy/tracy": "^2.8"
+            },
+            "suggest": {
+                "nikic/php-parser": "to use ClassType::withBodiesFrom() & GlobalFunction::withBodyFrom()"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.6-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0-only",
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 8.1 features.",
+            "homepage": "https://nette.org",
+            "keywords": [
+                "code",
+                "nette",
+                "php",
+                "scaffolding"
+            ],
+            "support": {
+                "issues": "https://github.com/nette/php-generator/issues",
+                "source": "https://github.com/nette/php-generator/tree/v3.6.9"
+            },
+            "time": "2022-10-04T11:49:47+00:00"
+        },
+        {
+            "name": "nette/utils",
+            "version": "v3.2.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nette/utils.git",
+                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nette/utils/zipball/c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
+                "reference": "c91bac3470c34b2ecd5400f6e6fdf0b64a836a5c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2 <8.3"
+            },
+            "conflict": {
+                "nette/di": "<3.0.6"
+            },
+            "require-dev": {
+                "jetbrains/phpstorm-attributes": "dev-master",
+                "nette/tester": "~2.0",
+                "phpstan/phpstan": "^1.0",
+                "tracy/tracy": "^2.3"
+            },
+            "suggest": {
+                "ext-gd": "to use Image",
+                "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
+                "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
+                "ext-json": "to use Nette\\Utils\\Json",
+                "ext-mbstring": "to use Strings::lower() etc...",
+                "ext-tokenizer": "to use Nette\\Utils\\Reflection::getUseStatements()",
+                "ext-xml": "to use Strings::length() etc. when mbstring is not available"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.2-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0-only",
+                "GPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "David Grudl",
+                    "homepage": "https://davidgrudl.com"
+                },
+                {
+                    "name": "Nette Community",
+                    "homepage": "https://nette.org/contributors"
+                }
+            ],
+            "description": "🛠  Nette Utils: lightweight utilities for string & array manipulation, image handling, safe JSON encoding/decoding, validation, slug or strong password generating etc.",
+            "homepage": "https://nette.org",
+            "keywords": [
+                "array",
+                "core",
+                "datetime",
+                "images",
+                "json",
+                "nette",
+                "paginator",
+                "password",
+                "slugify",
+                "string",
+                "unicode",
+                "utf-8",
+                "utility",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/nette/utils/issues",
+                "source": "https://github.com/nette/utils/tree/v3.2.9"
+            },
+            "time": "2023-01-18T03:26:20+00:00"
         },
         {
             "name": "nikic/php-parser",
