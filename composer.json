@@ -1,6 +1,6 @@
 {
-  "name": "delboy1978uk/boneframework",
-  "description": "Bone Framework",
+  "name": "delboy1978uk/bone-native-backend-api",
+  "description": "A pre-configured Bone Framefork OAuth2 API for use with Bone Native",
   "authors": [
     {
       "name": "Derek Stephen McLean",
@@ -11,15 +11,13 @@
   "keywords": [
     "bone",
     "framework",
-    "middleware",
-    "psr-7",
-    "psr7",
-    "psr-11",
-    "psr11",
-    "psr-15",
-    "psr15"
+    "api",
+    "native",
+    "ios",
+    "android",
+    "oauth2",
   ],
-  "homepage": "https://github.com/delboy1978uk/boneframework",
+  "homepage": "https://github.com/delboy1978uk/bone-native-backend-api",
   "license": "MIT",
   "require": {
     "php": "^8.1",
@@ -49,7 +47,7 @@
   "autoload": {
     "psr-4": {
       "Bone\\App\\": "src/App/",
-      "BoneMvcTest\\": "tests/unit/",
+      "Bone\\Test\\": "tests/unit/",
       "Fixtures\\": "data/fixtures/"
     },
     "classmap": ["data/proxies/"]

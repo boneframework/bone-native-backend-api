@@ -1,6 +1,6 @@
 <?php
 
-namespace BoneMvcTest\Controller;
+namespace Bone\Test\Controller;
 
 use Bone\App\Controller\IndexController;
 use Bone\Http\Response\HtmlResponse;

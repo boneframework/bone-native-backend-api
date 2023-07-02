@@ -1,6 +1,6 @@
 <?php
 
-namespace BoneMvcTest;
+namespace Bone\Test;
 
 use Bone\App\Controller\IndexController;
 use Barnacle\Container;
