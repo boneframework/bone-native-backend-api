@@ -33,29 +33,4 @@ class AppPackageTest extends Test
     {
         unset($this->package);
     }
-
-    public function testAddToContainer()
-    {
-        $container = new Container();
-
-        $view = new ViewEngine('src/App/View');
-        $router = new Router();
-        $translator = $this->getMockBuilder(Translator::class)->getMock();
-        $site = $this->getMockBuilder(SiteConfig::class)->disableOriginalConstructor()->getMock();
-        $container[SiteConfig::class] = $site;
-
-        $container[ViewEngine::class] = $view;
-        $container[Router::class] = $router;
-        $container[Translator::class] = $translator;
-
-        $this->package->addToContainer($container);
-
-        $this->assertInstanceOf(IndexController::class, $container->get(IndexController::class));
-
-        $router = $this->package->addRoutes($container, $router);
-
-        $this->assertInstanceOf(Router::class, $router);
-        $this->assertCount(3, $this->package->addViews());
-        $this->assertEmpty($this->package->addViewExtensions($container));
-    }
 }

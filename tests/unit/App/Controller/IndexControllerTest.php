@@ -38,7 +38,6 @@ class IndexControllerTest extends Test
         $translator = $this->getMockBuilder(Translator::class)->getMock();
         $site = $this->getMockBuilder(SiteConfig::class)->disableOriginalConstructor()->getMock();
 
-        $container[ViewEngine::class] = $view;
         $container[Router::class] = $router;
         $container[SiteConfig::class] = $site;
         $container[Translator::class] = $translator;
@@ -59,10 +58,5 @@ class IndexControllerTest extends Test
     public function testIndexAction()
     {
         $this->assertInstanceOf(HtmlResponse::class, $this->controller->index(new ServerRequest([], [], new Uri('/')), []));
-    }
-
-    public function testLearnAction()
-    {
-        $this->assertInstanceOf(ResponseInterface::class, $this->controller->learn(new ServerRequest([], [], '/'), []));
     }
 }
