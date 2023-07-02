@@ -4,6 +4,7 @@ use Bone\App\AppPackage;
 use Bone\BoneDoctrine\BoneDoctrinePackage;
 use Bone\BoneUserApi\BoneUserApiPackage;
 use Bone\Mail\MailPackage;
+use Bone\Notification\PushToken\PushNotificationPackage;
 use Bone\OAuth2\BoneOAuth2Package;
 use Bone\OpenApi\OpenApiPackage;
 use Bone\Paseto\PasetoPackage;
@@ -25,6 +26,7 @@ return [
         BoneOAuth2Package::class,
         OpenApiPackage::class,
         BoneUserApiPackage::class,
+        PushNotificationPackage::class,
         SettingsPackage::class,
         VendorDevPackage::class,
         GeneratorPackage::class,
