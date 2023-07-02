@@ -16,7 +16,7 @@
     "native",
     "ios",
     "android",
-    "oauth2",
+    "oauth2"
   ],
   "homepage": "https://github.com/delboy1978uk/bone-native-backend-api",
   "license": "MIT",
