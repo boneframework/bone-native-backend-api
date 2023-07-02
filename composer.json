@@ -1,6 +1,7 @@
 {
   "name": "delboy1978uk/bone-native-backend-api",
   "description": "A pre-configured Bone Framefork OAuth2 API for use with Bone Native",
+  "type": "project",
   "authors": [
     {
       "name": "Derek Stephen McLean",
