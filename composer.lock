@@ -393,16 +393,16 @@
         },
         {
             "name": "delboy1978uk/bone-doctrine",
-            "version": "v1.8.3",
+            "version": "v1.8.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-doctrine.git",
-                "reference": "397c62c8a5364f4a68239f551064ff5178e9e6f2"
+                "reference": "23e59afe74619ad65cf3e6283316a7f4ac5e8ace"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-doctrine/zipball/397c62c8a5364f4a68239f551064ff5178e9e6f2",
-                "reference": "397c62c8a5364f4a68239f551064ff5178e9e6f2",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-doctrine/zipball/23e59afe74619ad65cf3e6283316a7f4ac5e8ace",
+                "reference": "23e59afe74619ad65cf3e6283316a7f4ac5e8ace",
                 "shasum": ""
             },
             "require": {
@@ -440,9 +440,9 @@
             "description": "Doctrine functionality for Bone Framework",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-doctrine/issues",
-                "source": "https://github.com/delboy1978uk/bone-doctrine/tree/v1.8.3"
+                "source": "https://github.com/delboy1978uk/bone-doctrine/tree/v1.8.4"
             },
-            "time": "2023-07-02T22:21:46+00:00"
+            "time": "2023-07-11T17:05:27+00:00"
         },
         {
             "name": "delboy1978uk/bone-firewall",
@@ -850,16 +850,16 @@
         },
         {
             "name": "delboy1978uk/bone-push-notifications",
-            "version": "v1.0.1",
+            "version": "v1.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-push-notifications.git",
-                "reference": "8e970b05ee55c42e9d2ffdf3e0281119f8e55234"
+                "reference": "af6f8a0614d3319bf191b0c95b7759b0589f47bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-push-notifications/zipball/8e970b05ee55c42e9d2ffdf3e0281119f8e55234",
-                "reference": "8e970b05ee55c42e9d2ffdf3e0281119f8e55234",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-push-notifications/zipball/af6f8a0614d3319bf191b0c95b7759b0589f47bf",
+                "reference": "af6f8a0614d3319bf191b0c95b7759b0589f47bf",
                 "shasum": ""
             },
             "require": {
@@ -889,9 +889,9 @@
             "description": "Push Notifications using Expo for Bone Native apps",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-push-notifications/issues",
-                "source": "https://github.com/delboy1978uk/bone-push-notifications/tree/v1.0.1"
+                "source": "https://github.com/delboy1978uk/bone-push-notifications/tree/v1.0.2"
             },
-            "time": "2023-07-02T22:16:05+00:00"
+            "time": "2023-07-02T22:30:32+00:00"
         },
         {
             "name": "delboy1978uk/bone-router",
