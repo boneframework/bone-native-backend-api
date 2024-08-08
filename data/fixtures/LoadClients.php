@@ -16,9 +16,9 @@ class LoadClients implements FixtureInterface
         $entity = new Client();
         $entity->setName('Bone Native Client');
         $entity->setDescription('Client used in Bone React Native Project');
-        $entity->setIcon('https://boneframework.delboysplace/img/skull_and_crossbones.png');
+        $entity->setIcon('https://delboysplace.co.uk/img/skull_and_crossbones.png');
         $entity->setGrantType('auth_code');
-        $entity->setRedirectUri('exp://192.168.0.204:19000/--/oauth2/callback');
+        $entity->setRedirectUri('exp://192.168.0.204:8081/--/oauth2/callback');
         $entity->setIdentifier(\md5($entity->getName()));
         $time = \microtime();
         $name = $entity->getName();
@@ -26,6 +26,7 @@ class LoadClients implements FixtureInterface
         $base64 = \base64_encode($secret);
         $entity->setSecret($base64);
         $entity->setConfidential(false);
+        $entity->setProprietary(true);
         $entity->setScopes(new ArrayCollection([$basicScope]));
         $manager->persist($entity);
         $manager->flush();

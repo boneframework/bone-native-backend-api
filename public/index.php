@@ -48,7 +48,6 @@ $dotenv = Dotenv\Dotenv::createUnsafeImmutable(APPLICATION_PATH);
 $dotenv->safeLoad();
 define('APPLICATION_ENV', $_ENV['APPLICATION_ENV'] ?? 'production');
 
-
 /**
  *  Time t'begin th'voyage me hearties!
  */

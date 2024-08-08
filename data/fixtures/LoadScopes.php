@@ -12,7 +12,7 @@ class LoadScopes implements FixtureInterface
     {
         $entity = new Scope();
         $entity->setIdentifier('basic');
-        $entity->setDescription('access api data');
+        $entity->setDescription('email and user profile');
         $manager->persist($entity);
         $manager->flush();
     }

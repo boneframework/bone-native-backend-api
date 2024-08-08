@@ -137,7 +137,7 @@ $image = $person->getImage() ? new Image('data/uploads/' . $person->getImage()) 
             <br>
             <?php /** @todo get vars in here */ ?>
             <p><?= Icon::HOME ?>  Address here | <?= Icon::PHONE ?> phone here | <?= Icon::ENVELOPE ?> <a href="mailto:emailhere">emailhere</a>.</p>
-            <p>© 2020 <?= date('Y') > 2020 ? ' - ' . date('Y') : '' ?> sitename | Site created by <a target="_blank" href="//authorurl">author</a></p>
+            <p>© 2014 <?= date('Y') > 2014 ? ' - ' . date('Y') : '' ?> sitename | Site created by <a target="_blank" href="//authorurl">author</a></p>
         </div>
     </footer>
 

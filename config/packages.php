@@ -28,8 +28,6 @@ return [
         BoneUserApiPackage::class,
         PushNotificationPackage::class,
         SettingsPackage::class,
-        VendorDevPackage::class,
-        GeneratorPackage::class,
         AppPackage::class,
     ],
 ];
