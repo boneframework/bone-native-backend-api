@@ -1,24 +1,23 @@
 <?php
 
-namespace Bone\Test\Controller;
+namespace Tests\Unit\App\Controller;
 
-use Bone\App\Controller\IndexController;
-use Bone\Http\Response\HtmlResponse;
 use Barnacle\Container;
+use Bone\App\Controller\IndexController;
 use Bone\Controller\Init;
-use Bone\View\ViewEngine;
-use Bone\Server\SiteConfig;
-use Codeception\TestCase\Test;
+use Bone\Http\Response\HtmlResponse;
 use Bone\Router\Router;
-use Psr\Http\Message\ResponseInterface;
+use Bone\Server\SiteConfig;
+use Bone\View\ViewEngine;
+use Codeception\Test\Unit;
 use Laminas\Diactoros\ServerRequest;
 use Laminas\Diactoros\Uri;
 use Laminas\I18n\Translator\Translator;
 
-class IndexControllerTest extends Test
+class IndexControllerTest extends Unit
 {
     /**
-     * @var \UnitTester
+     * @var \Tests\Support\UnitTester
      */
     protected $tester;
 

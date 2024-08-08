@@ -1,20 +1,14 @@
 <?php
 
-namespace Bone\Test;
+namespace Tests\Unit\App;
 
-use Bone\App\Controller\IndexController;
-use Barnacle\Container;
-use Bone\View\ViewEngine;
-use Bone\Server\SiteConfig;
 use Bone\App\AppPackage;
-use Codeception\TestCase\Test;
-use Bone\Router\Router;
-use Laminas\I18n\Translator\Translator;
+use Codeception\Test\Unit;
 
-class AppPackageTest extends Test
+class AppPackageTest extends Unit
 {
     /**
-     * @var \UnitTester
+     * @var \Tests\Support\UnitTester
      */
     protected $tester;
 
