@@ -698,16 +698,16 @@
         },
         {
             "name": "delboy1978uk/bone-oauth2",
-            "version": "v1.8.2",
+            "version": "v1.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-oauth2.git",
-                "reference": "61290af362a26bc6a0486931e5d7b61655c8d72d"
+                "reference": "72cac8ac2e4d3c94fb8beb1d8ad30dabeac7ebe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-oauth2/zipball/61290af362a26bc6a0486931e5d7b61655c8d72d",
-                "reference": "61290af362a26bc6a0486931e5d7b61655c8d72d",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-oauth2/zipball/72cac8ac2e4d3c94fb8beb1d8ad30dabeac7ebe1",
+                "reference": "72cac8ac2e4d3c94fb8beb1d8ad30dabeac7ebe1",
                 "shasum": ""
             },
             "require": {
@@ -751,9 +751,9 @@
             "description": "OAuth2 functionality for Bone Framework",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-oauth2/issues",
-                "source": "https://github.com/delboy1978uk/bone-oauth2/tree/v1.8.2"
+                "source": "https://github.com/delboy1978uk/bone-oauth2/tree/v1.8.3"
             },
-            "time": "2024-08-08T01:35:13+00:00"
+            "time": "2024-08-08T14:26:13+00:00"
         },
         {
             "name": "delboy1978uk/bone-open-api",
@@ -10293,16 +10293,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.11.9",
+            "version": "1.11.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e370bcddadaede0c1716338b262346f40d296f82"
+                "reference": "640410b32995914bde3eed26fa89552f9c2c082f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e370bcddadaede0c1716338b262346f40d296f82",
-                "reference": "e370bcddadaede0c1716338b262346f40d296f82",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/640410b32995914bde3eed26fa89552f9c2c082f",
+                "reference": "640410b32995914bde3eed26fa89552f9c2c082f",
                 "shasum": ""
             },
             "require": {
@@ -10347,7 +10347,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-08-01T16:25:18+00:00"
+            "time": "2024-08-08T09:02:50+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
