@@ -44,11 +44,6 @@ use Psr\Http\Message\ServerRequestInterface;
  */
 class IndexController extends Controller
 {
-    /**
-     * @param ServerRequestInterface $request
-     * @param array $args
-     * @return ResponseInterface
-     */
     public function index(ServerRequestInterface $request): ResponseInterface
     {
         $body = $this->view->render('app::index');
@@ -56,11 +51,6 @@ class IndexController extends Controller
         return new HtmlResponse($body);
     }
 
-    /**
-     * @param ServerRequestInterface $request
-     * @param array $args
-     * @return ResponseInterface
-     */
     public function listings(ServerRequestInterface $request): ResponseInterface
     {
         $body = [
@@ -190,5 +180,11 @@ class IndexController extends Controller
         ];
 
         return new JsonResponse($body);
+    }
+
+    public function addListing(ServerRequestInterface $request): ResponseInterface
+    {
+        // this is just example, we normally would validate and create an entity
+        return new JsonResponse($request->getParsedBody());
     }
 }

@@ -4,6 +4,7 @@ namespace Bone\App;
 
 use Bone\App\Controller\IndexController;
 use Bone\Controller\Init;
+use Bone\Http\Middleware\JsonParse;
 use Bone\OAuth2\Http\Middleware\ResourceServerMiddleware;
 use Bone\Router\Router;
 use Bone\Router\RouterConfigInterface;
@@ -57,6 +58,8 @@ class AppPackage implements RegistrationInterface, RouterConfigInterface, ViewRe
         $auth = $c->get(ResourceServerMiddleware::class);
         $router->map('GET', '/', [IndexController::class, 'index']);
         $router->map('GET', '/listings', [IndexController::class, 'listings'])->middleware($auth);
+        $router->map('POST', '/listings', [IndexController::class, 'addListing'])
+            ->middlewares([$auth, new JsonParse()]);
 
         return $router;
     }
