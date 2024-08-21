@@ -11,10 +11,10 @@ modules:
         - Tests\Support\Helper\AcceptanceHelper
     config:
         PhpBrowser:
-            url: 'http://awesome.scot'
+            url: 'http://boneframework.docker'
 env:
     travis:
          modules:
             config:
                 PhpBrowser:
-                    url: 'http://awesome.scot'
+                    url: 'http://boneframework.docker'

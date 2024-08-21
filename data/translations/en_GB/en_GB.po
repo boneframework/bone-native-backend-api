@@ -114,7 +114,7 @@ msgstr ""
 #: src/App/View/index/learn.php:88
 msgid "docker.browse"
 msgstr ""
-"Then you can access the site at https://awesome.scot in your browser. Of "
+"Then you can access the site at https://boneframework.docker in your browser. Of "
 "course if you don't use docker you can add it to your LAMP stack in the "
 "usual way."
 
@@ -215,7 +215,7 @@ msgstr ""
 msgid "learn.mail.hog"
 msgstr ""
 "If you are using the Docker Box provided by bone, you also have the awesome "
-"MailHog at your disposal. Browse to awesome.scot:8025 and you'll see a catch "
+"MailHog at your disposal. Browse to boneframework.docker:8025 and you'll see a catch "
 "all email inbox, so you never need to worry about development emails "
 "reaching the real world."
 

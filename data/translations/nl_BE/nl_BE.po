@@ -112,7 +112,7 @@ msgstr ""
 #: src/App/View/index/learn.php:88
 msgid "docker.browse"
 msgstr ""
-"Vervolgens hebt u toegang tot de site op https://awesome.scot in uw browser. "
+"Vervolgens hebt u toegang tot de site op https://boneframework.docker in uw browser. "
 "Als u docker niet gebruikt, kunt u dit natuurlijk op de gebruikelijke manier "
 "aan uw LAMP-stack toevoegen."
 
@@ -215,7 +215,7 @@ msgstr ""
 msgid "learn.mail.hog"
 msgstr ""
 "Als u de door bot geleverde dock-box gebruikt, heeft u ook de geweldige "
-"MailHog tot uw beschikking. Blader naar awesome.scot:8025 en je ziet een e-"
+"MailHog tot uw beschikking. Blader naar boneframework.docker:8025 en je ziet een e-"
 "mailinbox voor e-mails, dus je hoeft je nooit zorgen te maken dat "
 "ontwikkelingsmails de echte wereld bereiken."
 

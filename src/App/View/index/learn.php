@@ -44,7 +44,7 @@
                 <p class="text-muted">To install Bone via Docker, instead use Git to clone the project</p>
                 <div class="code tl">git clone https://github.com/delboy1978uk/boneframework yourProjectName</div>
                 <p class="text-muted"><?= $this->t('docker.about'); ?><br class="mb20"/>
-                    <code>awesome.scot 192.168.99.100</code></p>
+                    <code>boneframework.docker 192.168.99.100</code></p>
                 <div class="code tl">
                     docker-machine start <br>
                     eval $(docker-machine env) <br>
@@ -52,7 +52,7 @@
                     docker-compose up <br>
                 </div>
                 <br>
-                Then you can access the site at <span class="code">https://awesome.scot</span> in your browser.
+                Then you can access the site at <span class="code">https://boneframework.docker</span> in your browser.
             </div>
         </div>
     </div>

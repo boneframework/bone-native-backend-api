@@ -28,7 +28,7 @@ use Psr\Http\Message\ServerRequestInterface;
  *     securityScheme="bone-oauth2",
  *     @OA\Flow(
  *         flow="authorizationCode",
- *         authorizationUrl="https://awesome.scot/oauth2/authorize",
+ *         authorizationUrl="https://boneframework.docker/oauth2/authorize",
  *         scopes={
  *             "basic": "Access public API data",
  *             "register-client": "Create and rewgistger clients",
