@@ -477,7 +477,7 @@
                 "type": "oauth2",
                 "flows": {
                     "authorizationCode": {
-                        "authorizationUrl": "https://awesome.scot/oauth2/authorize",
+                        "authorizationUrl": "https://boneframework.docker/oauth2/authorize",
                         "scopes": {
                             "basic": "Access public API data",
                             "register-client": "Create and rewgistger clients"
