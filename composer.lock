@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1ba5bc1059f541425129e47531fba96a",
+    "content-hash": "eb6577c29d661dc1f69825e5083917ae",
     "packages": [
         {
             "name": "alymosul/exponent-server-sdk-php",
@@ -53,6 +53,66 @@
                 "source": "https://github.com/Alymosul/exponent-server-sdk-php/tree/1.3.1"
             },
             "time": "2023-05-12T18:31:26+00:00"
+        },
+        {
+            "name": "boneframework/bone",
+            "version": "v3.11.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/boneframework/bone.git",
+                "reference": "9dda93f7ddc104b0a85051412b3a67fe4158e024"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/boneframework/bone/zipball/9dda93f7ddc104b0a85051412b3a67fe4158e024",
+                "reference": "9dda93f7ddc104b0a85051412b3a67fe4158e024",
+                "shasum": ""
+            },
+            "require": {
+                "delboy1978uk/barnacle": "^2.3",
+                "delboy1978uk/bone-console": "^1.5",
+                "delboy1978uk/bone-controller": "^1.6",
+                "delboy1978uk/bone-db": "^1.2",
+                "delboy1978uk/bone-firewall": "^1.2",
+                "delboy1978uk/bone-http": "^2.4",
+                "delboy1978uk/bone-i18n": "^1.3",
+                "delboy1978uk/bone-log": "^1.3",
+                "delboy1978uk/bone-router": "^1.4",
+                "delboy1978uk/bone-server": "^1.2",
+                "delboy1978uk/bone-view": "^1.8",
+                "delboy1978uk/icon": "^1.2",
+                "delboy1978uk/session": "^1.6",
+                "laminas/laminas-diactoros": "^3.3",
+                "laminas/laminas-httphandlerrunner": "^2.10",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "delboy1978uk/dev-tools": "^1.0",
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bone\\": "src/",
+                    "BoneTest\\": "tests/unit"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Derek Stephen McLean",
+                    "email": "delboy1978uk@gmail.com"
+                }
+            ],
+            "description": "Bone Framework core application",
+            "support": {
+                "issues": "https://github.com/boneframework/bone/issues",
+                "source": "https://github.com/boneframework/bone/tree/v3.11.0"
+            },
+            "time": "2024-09-07T10:53:31+00:00"
         },
         {
             "name": "defuse/php-encryption",
