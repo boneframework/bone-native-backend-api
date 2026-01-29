@@ -14,10 +14,7 @@ use Bone\View\ViewRegistrationInterface;
 
 class AppPackage implements RegistrationInterface, RouterConfigInterface, ViewRegistrationInterface
 {
-    /**
-     * @param Container $c
-     */
-    public function addToContainer(Container $c)
+    public function addToContainer(Container $c): void
     {
         $c[IndexController::class] = $c->factory(function (Container $c) {
             $controller = new IndexController();
@@ -26,9 +23,6 @@ class AppPackage implements RegistrationInterface, RouterConfigInterface, ViewRe
         });
     }
 
-    /**
-     * @return array
-     */
     public function addViews(): array
     {
         return [
@@ -38,21 +32,11 @@ class AppPackage implements RegistrationInterface, RouterConfigInterface, ViewRe
         ];
     }
 
-    /**
-     * @param Container $c
-     * @return array
-     */
     public function addViewExtensions(Container $c): array
     {
         return [];
     }
 
-
-    /**
-     * @param Container $c
-     * @param Router $router
-     * @return Router
-     */
     public function addRoutes(Container $c, Router $router): Router
     {
         $auth = $c->get(ResourceServerMiddleware::class);
