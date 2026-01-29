@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5b1c6cb911a9fa0a89d12e715f8f0d1e",
+    "content-hash": "0d20ff37bdeab9d3f60662dd5237ed8a",
     "packages": [
         {
             "name": "alymosul/exponent-server-sdk-php",
@@ -56,16 +56,16 @@
         },
         {
             "name": "boneframework/bone",
-            "version": "v3.13.1",
+            "version": "v3.13.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boneframework/bone.git",
-                "reference": "46fa3cfa7073bddf81a2dc06f9b2124e9d7cca34"
+                "reference": "e2b1641870ce2cd7f533c3ecc8164a4926a799ef"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boneframework/bone/zipball/46fa3cfa7073bddf81a2dc06f9b2124e9d7cca34",
-                "reference": "46fa3cfa7073bddf81a2dc06f9b2124e9d7cca34",
+                "url": "https://api.github.com/repos/boneframework/bone/zipball/e2b1641870ce2cd7f533c3ecc8164a4926a799ef",
+                "reference": "e2b1641870ce2cd7f533c3ecc8164a4926a799ef",
                 "shasum": ""
             },
             "require": {
@@ -111,9 +111,9 @@
             "description": "Bone Framework core application",
             "support": {
                 "issues": "https://github.com/boneframework/bone/issues",
-                "source": "https://github.com/boneframework/bone/tree/v3.13.1"
+                "source": "https://github.com/boneframework/bone/tree/v3.13.2"
             },
-            "time": "2026-01-29T11:47:32+00:00"
+            "time": "2026-01-29T18:33:01+00:00"
         },
         {
             "name": "boneframework/contracts",
@@ -689,16 +689,16 @@
         },
         {
             "name": "delboy1978uk/bone-i18n",
-            "version": "v1.4.4",
+            "version": "v1.4.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-i18n.git",
-                "reference": "47a55f67bcb3014f60b561f88a3ddb9ce4c8ae20"
+                "reference": "96dadd4533fcdd51d3c38dfe024aaff1a0935b7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-i18n/zipball/47a55f67bcb3014f60b561f88a3ddb9ce4c8ae20",
-                "reference": "47a55f67bcb3014f60b561f88a3ddb9ce4c8ae20",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-i18n/zipball/96dadd4533fcdd51d3c38dfe024aaff1a0935b7d",
+                "reference": "96dadd4533fcdd51d3c38dfe024aaff1a0935b7d",
                 "shasum": ""
             },
             "require": {
@@ -738,9 +738,9 @@
             "description": "I18n package for Bone Framework",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-i18n/issues",
-                "source": "https://github.com/delboy1978uk/bone-i18n/tree/v1.4.4"
+                "source": "https://github.com/delboy1978uk/bone-i18n/tree/v1.4.5"
             },
-            "time": "2026-01-29T14:27:23+00:00"
+            "time": "2026-01-29T18:10:22+00:00"
         },
         {
             "name": "delboy1978uk/bone-log",
@@ -1076,16 +1076,16 @@
         },
         {
             "name": "delboy1978uk/bone-router",
-            "version": "v1.7.8",
+            "version": "v1.7.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-router.git",
-                "reference": "0e848dcdddf9526fbb3948c1661c9356436185b4"
+                "reference": "fcb9e022aba3ffa5b6d0c4a6cf07bb9c41b5bbcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-router/zipball/0e848dcdddf9526fbb3948c1661c9356436185b4",
-                "reference": "0e848dcdddf9526fbb3948c1661c9356436185b4",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-router/zipball/fcb9e022aba3ffa5b6d0c4a6cf07bb9c41b5bbcf",
+                "reference": "fcb9e022aba3ffa5b6d0c4a6cf07bb9c41b5bbcf",
                 "shasum": ""
             },
             "require": {
@@ -1096,9 +1096,8 @@
                 "php": "^8.2"
             },
             "require-dev": {
-                "codeception/codeception": "^5.1",
-                "codeception/module-asserts": "^3.0.0",
-                "codeception/module-phpbrowser": "^3.0.0",
+                "boneframework/contracts": "^1.5",
+                "delboy1978uk/dev-tools": "^1.1",
                 "roave/security-advisories": "dev-master"
             },
             "type": "library",
@@ -1120,22 +1119,22 @@
             "description": "Router package for Bone Framework",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-router/issues",
-                "source": "https://github.com/delboy1978uk/bone-router/tree/v1.7.8"
+                "source": "https://github.com/delboy1978uk/bone-router/tree/v1.7.9"
             },
-            "time": "2025-10-23T15:01:18+00:00"
+            "time": "2026-01-29T18:29:30+00:00"
         },
         {
             "name": "delboy1978uk/bone-server",
-            "version": "v1.3.0",
+            "version": "v1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/delboy1978uk/bone-server.git",
-                "reference": "ac70ce4801989f64b77c6d147757b3c42e25f998"
+                "reference": "a923ee63fc8832c0114d70ce01861cd40ff07f56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/delboy1978uk/bone-server/zipball/ac70ce4801989f64b77c6d147757b3c42e25f998",
-                "reference": "ac70ce4801989f64b77c6d147757b3c42e25f998",
+                "url": "https://api.github.com/repos/delboy1978uk/bone-server/zipball/a923ee63fc8832c0114d70ce01861cd40ff07f56",
+                "reference": "a923ee63fc8832c0114d70ce01861cd40ff07f56",
                 "shasum": ""
             },
             "require": {
@@ -1144,8 +1143,7 @@
                 "php": "^8.2"
             },
             "require-dev": {
-                "codeception/codeception": "^5.1",
-                "codeception/module-asserts": "^3.0",
+                "delboy1978uk/dev-tools": "^1.1",
                 "roave/security-advisories": "dev-latest"
             },
             "type": "library",
@@ -1167,9 +1165,9 @@
             "description": "Server package for Bone Framework",
             "support": {
                 "issues": "https://github.com/delboy1978uk/bone-server/issues",
-                "source": "https://github.com/delboy1978uk/bone-server/tree/v1.3.0"
+                "source": "https://github.com/delboy1978uk/bone-server/tree/v1.3.1"
             },
-            "time": "2024-03-31T12:44:29+00:00"
+            "time": "2026-01-29T18:09:37+00:00"
         },
         {
             "name": "delboy1978uk/bone-settings",
@@ -14751,7 +14749,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.3",
+        "php": "^8.4",
         "ext-fileinfo": "*",
         "ext-intl": "*",
         "ext-json": "*",
