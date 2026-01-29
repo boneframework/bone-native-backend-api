@@ -9,10 +9,10 @@ use Bone\Http\Response\HtmlResponse;
 use Bone\Router\Router;
 use Bone\Server\SiteConfig;
 use Bone\View\ViewEngine;
+use Bone\Contracts\Service\TranslatorInterface;
 use Codeception\Test\Unit;
 use Laminas\Diactoros\ServerRequest;
 use Laminas\Diactoros\Uri;
-use Laminas\I18n\Translator\Translator;
 
 class IndexControllerTest extends Unit
 {
@@ -34,12 +34,12 @@ class IndexControllerTest extends Unit
         $router = new Router();
         $view = $this->getMockBuilder(ViewEngine::class)->getMock();
         $view->expects($this->any())->method('render')->willReturn('x');
-        $translator = $this->getMockBuilder(Translator::class)->getMock();
+        $translator = $this->getMockBuilder(TranslatorInterface::class)->getMock();
         $site = $this->getMockBuilder(SiteConfig::class)->disableOriginalConstructor()->getMock();
 
         $container[Router::class] = $router;
         $container[SiteConfig::class] = $site;
-        $container[Translator::class] = $translator;
+        $container[TranslatorInterface::class] = $translator;
 
         $view = $this->make(ViewEngine::class, ['render' => function() {
             return 'rendered content';

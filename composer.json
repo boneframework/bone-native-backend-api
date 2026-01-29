@@ -60,6 +60,5 @@
     "allow-plugins": {
       "phpro/grumphp": false
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
