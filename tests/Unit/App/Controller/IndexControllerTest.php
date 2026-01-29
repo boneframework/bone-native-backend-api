@@ -8,7 +8,7 @@ use Bone\Controller\Init;
 use Bone\Http\Response\HtmlResponse;
 use Bone\Router\Router;
 use Bone\Server\SiteConfig;
-use Bone\View\ViewEngine;
+use Bone\View\ViewEngineInterface;
 use Bone\Contracts\Service\TranslatorInterface;
 use Codeception\Test\Unit;
 use Laminas\Diactoros\ServerRequest;
@@ -32,7 +32,7 @@ class IndexControllerTest extends Unit
         $container = new Container();
 
         $router = new Router();
-        $view = $this->getMockBuilder(ViewEngine::class)->getMock();
+        $view = $this->getMockBuilder(ViewEngineInterface::class)->getMock();
         $view->expects($this->any())->method('render')->willReturn('x');
         $translator = $this->getMockBuilder(TranslatorInterface::class)->getMock();
         $site = $this->getMockBuilder(SiteConfig::class)->disableOriginalConstructor()->getMock();
