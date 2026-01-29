@@ -41,10 +41,10 @@ class IndexControllerTest extends Unit
         $container[SiteConfig::class] = $site;
         $container[TranslatorInterface::class] = $translator;
 
-        $view = $this->make(ViewEngine::class, ['render' => function() {
+        $view = $this->make(ViewEngineInterface::class, ['render' => function() {
             return 'rendered content';
         }]);
-        $container[ViewEngine::class] = $view;
+        $container[ViewEngineInterface::class] = $view;
         $this->controller = new IndexController();
         $this->controller = Init::controller($this->controller, $container);
     }
