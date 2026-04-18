@@ -29,7 +29,6 @@
 //                                      ) _ ((  O )/    / ) _)
 //                                     (____/ \__/ \_)__)(____)
 
-
 \chdir(\dirname(__DIR__));
 
 if (!\defined('APPLICATION_PATH')) {
