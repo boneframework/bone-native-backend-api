@@ -17,6 +17,11 @@ class IndexController extends Controller
         return new HtmlResponse($body);
     }
 
+    public function xx(ServerRequestInterface $request): ResponseInterface
+    {
+        return new HtmlResponse('XXX');
+    }
+
     public function listings(ServerRequestInterface $request): ResponseInterface
     {
         $body = [

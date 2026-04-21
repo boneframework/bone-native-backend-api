@@ -3,6 +3,7 @@
 use Bone\App\AppPackage;
 use Bone\BoneDoctrine\BoneDoctrinePackage;
 use Bone\BoneUserApi\BoneUserApiPackage;
+use Bone\DeepLinks\DeepLinksPackage;
 use Bone\Mail\MailPackage;
 use Bone\Notification\PushToken\PushNotificationPackage;
 use Bone\OAuth2\BoneOAuth2Package;
@@ -27,6 +28,7 @@ return [
         OpenApiPackage::class,
         BoneUserApiPackage::class,
         PushNotificationPackage::class,
+        DeepLinksPackage::class,
         SettingsPackage::class,
         AppPackage::class,
     ],
